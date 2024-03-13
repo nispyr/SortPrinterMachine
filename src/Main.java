@@ -70,7 +70,7 @@ public class Main {
 
         SortPrinter sortMachine = new SortPrinter();
         Sort selectBubbleSort = new BubbleSort();
-        Sort selectSelectionSort = new BubbleSort();
+        Sort selectSelectionSort = new SelectionSort();
 
         for(int i = 0 ; i < lst.size(); i++) {
             sortMachine.insert(lst.get(i));
